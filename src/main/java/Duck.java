@@ -8,6 +8,4 @@ public class Duck extends Animal implements Flying {
     public void fly() {
         System.out.println("Я лечу");
     }
-
-
 }
