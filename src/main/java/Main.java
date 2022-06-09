@@ -53,7 +53,7 @@ public class Main {
                         System.out.println("Список пуст, добавьте животное");
                     } else {
                         for (Animal animal : animals) {
-                            System.out.println(animal);
+                            System.out.println(animal.toString());
                         }
                     }
                     break;
