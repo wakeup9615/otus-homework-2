@@ -1,4 +1,8 @@
-public class Animal {
+package animal;
+
+import helper.Converting;
+
+public abstract class Animal {
 
     private String name;
     private int age;
@@ -56,7 +60,7 @@ public class Animal {
     @Override
     public String toString() {
         return "Привет! меня зовут " + name
-                + ", мне " + age + HelperFunc.generateYear(age)
+                + ", мне " + age + Converting.convertAgesToYears(age)
                 + ", я вешу - " + weight + " кг"
                 + ", мой цвет - " + color;
     }
