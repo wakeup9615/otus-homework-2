@@ -1,7 +1,6 @@
 package animal.birds;
 
 import animal.Animal;
-import animal.Flying;
 
 public class Duck extends Animal implements Flying {
     @Override
